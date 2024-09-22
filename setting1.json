@@ -21,10 +21,10 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontSize": 16,
   "css.validate": false,
   "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "Anonymous Pro",
+  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco,'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
@@ -57,10 +57,21 @@
   },
   "eslint.alwaysShowStatus": true,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "Lucida Console",
 
   "workbench.colorCustomizations": {
-    "terminal.background": "#1D2021",
+    "editorGroupHeader.tabsBackground": "#2c2c54",
+    "activityBar.background": "#2c2c54",
+    "sideBar.background": "#141422",
+    "minimap.background": "#141422",
+    "tab.activeBackground": "#706fd3",
+    "tab.inactiveBackground": "#191846",
+    "statusBar.background": "#474787",
+    "scrollbarSlider.background": "#474787",
+    "scrollbarSlider.hoverBackground": "#706fd3",
+    "terminal.border": "#2c2c54",
+    "terminal.background": "#2c2c54",
+
     "terminal.foreground": "#A89984",
     "terminalCursor.background": "#A89984",
     "terminalCursor.foreground": "#A89984",
@@ -138,7 +149,7 @@
   "code-runner.runInTerminal": true,
   "terminal.integrated.defaultProfile.linux": "bash",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "errorLens.enabledDiagnosticLevels": ["warning", "info", "error"],
   "errorLens.enabled": true,
 
@@ -211,11 +222,13 @@
   "git.openRepositoryInParentFolders": "never",
   "cmake.showOptionsMovedNotification": false,
   "editor.stickyScroll.enabled": false,
-  "editor.lineHeight": 0,
-  "editor.fontSize": 20,
+  "editor.lineHeight": 1.6,
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.fontSize": 18,
   "explorer.compactFolders": false,
   "workbench.editorAssociations": {
     "*.png": "imagePreview.previewEditor"
   },
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.env.windows": {}
 }
