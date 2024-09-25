@@ -1,114 +1,114 @@
 {
-    "editor.fontFamily": "'Cascadia Code', Menlo, Monaco,'Courier New', monospace",
-    "editor.lineHeight": 1.6,
-    "terminal.integrated.fontFamily": "Lucida Console",
-    "terminal.integrated.lineHeight": 1.2,
-    "editor.tabSize": 2,
-    "editor.fontLigatures": "'calt', 'ss01'",
-    "editor.wordWrap": "on",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "workbench.colorCustomizations": {
-        "editorGroupHeader.tabsBackground": "#2c2c54",
-        "activityBar.background": "#2c2c54",
-        "sideBar.background": "#141422",
-        "minimap.background": "#141422",
-        "tab.activeBackground": "#706fd3",
-        "tab.inactiveBackground": "#191846",
-        "terminal.border": "#2c2c54",
-        "terminal.background": "#2c2c54",
-        "statusBar.background": "#474787",
-        "scrollbarSlider.background": "#474787",
-        "scrollbarSlider.hoverBackground": "#706fd3"
-    },
-    "editor.tokenColorCustomizations": {
-        "comments": "#95afc0"
-    },
-    "editor.linkedEditing": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true,
-    "editor.hover.enabled": true,
+  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco,'Courier New', monospace",
+  "editor.lineHeight": 1.6,
+  "terminal.integrated.fontFamily": "Lucida Console",
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "workbench.colorCustomizations": {
+    "editorGroupHeader.tabsBackground": "#2c2c54",
+    "activityBar.background": "#2c2c54",
+    "sideBar.background": "#141422",
+    "minimap.background": "#141422",
+    "tab.activeBackground": "#706fd3",
+    "tab.inactiveBackground": "#191846",
+    "terminal.border": "#2c2c54",
+    "terminal.background": "#2c2c54",
+    "statusBar.background": "#474787",
+    "scrollbarSlider.background": "#474787",
+    "scrollbarSlider.hoverBackground": "#706fd3"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#95afc0"
+  },
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.hover.enabled": true,
 
-    // Live Server
-    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
+  // Live Server
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
 
-    // Live SASS Compiler
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "/css"
-        }
-    ],
-    "liveSassCompile.settings.generateMap": false,
-
-    // VS Code Theme Customization
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.enablePreview": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.fontSize": 15,
-    "diffEditor.wordWrap": "on",
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 2,
-
-    // Prettier Config
-    "prettier.proseWrap": "always",
-    "prettier.singleQuote": true,
-    //Prettier custom code start..
-    "prettier.bracketSameLine": true,
-    "prettier.bracketSpacing": true,
-    "prettier.printWidth": 200,
-    "prettier.tabWidth": 4,
-    "prettier.trailingComma": "none",
-    "prettier.useTabs": false,
-    //Prettier custom code End..
-    "prettier.arrowParens": "avoid",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-
-    //javascript emmet
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "vue-html": "html"
-    },
-
-    //Screencast Mode
-    "screencastMode.mouseIndicatorColor": "#f1c40f",
-    "screencastMode.verticalOffset": 0,
-
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.accessibilitySupport": "off",
-    "editor.mouseWheelZoom": true,
-
-    //Show Import file ext. ==> .js/jsx:
-    // "javascript.preferences.importModuleSpecifierEnding": "js", "jsx",
-
-    // React-lws:
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit",
-        "source.fixAll.tslint": "explicit",
-        "source.organizeImports": "explicit"
-    },
-    "eslint.run": "onSave",
-    "javascript.validate.enable": false,
-    "typescript.validate.enable": false,
-    "editor.minimap.enabled": false,
-    "editor.fontSize": 18,
-    "git.openRepositoryInParentFolders": "never",
-    "editor.stickyScroll.enabled": false,
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "terminal.integrated.env.windows": {},
-    "console-ninja.featureSet": "Community",
-    "console-ninja.toolsToEnableSupportAutomaticallyFor": {
-        "live-server-extension": true
+  // Live SASS Compiler
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
     }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+
+  // VS Code Theme Customization
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 15,
+  "diffEditor.wordWrap": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2,
+
+  // Prettier Config
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": true,
+  //Prettier custom code start..
+  "prettier.bracketSameLine": true,
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 200,
+  "prettier.tabWidth": 4,
+  "prettier.trailingComma": "none",
+  "prettier.useTabs": false,
+  //Prettier custom code End..
+  "prettier.arrowParens": "avoid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  //javascript emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+
+  //Screencast Mode
+  "screencastMode.mouseIndicatorColor": "#f1c40f",
+  "screencastMode.verticalOffset": 0,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "editor.mouseWheelZoom": true,
+
+  //Show Import file ext. ==> .js/jsx:
+  // "javascript.preferences.importModuleSpecifierEnding": "js", "jsx",
+
+  // React-lws:
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.run": "onSave",
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 18,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.stickyScroll.enabled": false,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true
+  }
 }

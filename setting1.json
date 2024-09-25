@@ -21,12 +21,23 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
   "css.validate": false,
   "editor.inlineSuggest.enabled": true,
   "editor.fontFamily": "'Cascadia Code', Menlo, Monaco,'Courier New', monospace",
   "editor.fontLigatures": true,
+
+  "editor.tabSize": 4,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.hover.enabled": true,
+
   "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
   "editor.minimap.enabled": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -41,6 +52,7 @@
 
   "editor.cursorBlinking": "expand",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.tabWidth": 2,
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -71,7 +83,6 @@
     "scrollbarSlider.hoverBackground": "#706fd3",
     "terminal.border": "#2c2c54",
     "terminal.background": "#2c2c54",
-
     "terminal.foreground": "#A89984",
     "terminalCursor.background": "#A89984",
     "terminalCursor.foreground": "#A89984",
@@ -148,7 +159,6 @@
   "editor.codeLensFontFamily": "Fira Code",
   "code-runner.runInTerminal": true,
   "terminal.integrated.defaultProfile.linux": "bash",
-  "workbench.productIconTheme": "fluent-icons",
   "workbench.colorTheme": "One Dark Pro Darker",
   "errorLens.enabledDiagnosticLevels": ["warning", "info", "error"],
   "errorLens.enabled": true,
@@ -217,8 +227,7 @@
     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
   },
   "tabnine.experimentalAutoImports": true,
-  "window.zoomLevel": 1,
-  "powermode.presets": "exploding-rift",
+  "window.zoomLevel": 0,
   "git.openRepositoryInParentFolders": "never",
   "cmake.showOptionsMovedNotification": false,
   "editor.stickyScroll.enabled": false,
@@ -229,6 +238,14 @@
   "workbench.editorAssociations": {
     "*.png": "imagePreview.previewEditor"
   },
+
   "workbench.activityBar.location": "top",
-  "terminal.integrated.env.windows": {}
+  "terminal.integrated.env.windows": {},
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "console-ninja.featureSet": "Community",
+
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true
+  }
 }
